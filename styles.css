@@ -1,0 +1,116 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Source Sans Pro', sans-serif;
+    line-height: 1.6;
+    color: #0D00FF;
+    background: #FAFAFA;
+    min-height: 100vh;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 2rem;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.hero {
+    background: #FAFAFA;
+    border: 2px solid #0D00FF;
+    padding: 3rem 2rem;
+    max-width: 600px;
+    width: 100%;
+}
+
+.logo {
+    font-family: 'Ballet', cursive;
+    font-size: 3.5rem;
+    color: #0D00FF;
+    margin-bottom: 1rem;
+}
+
+.tagline {
+    font-family: 'EB Garamond', serif;
+    font-size: 1.3rem;
+    color: #0D00FF;
+    margin-bottom: 2rem;
+    font-style: italic;
+}
+
+.description {
+    font-size: 1.1rem;
+    line-height: 1.7;
+    margin-bottom: 2.5rem;
+    color: #0D00FF;
+}
+
+.cta-buttons {
+    display: flex;
+    gap: 1.5rem;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 2rem;
+}
+
+.btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 1rem 2rem;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 1.1rem;
+    border: 2px solid #0D00FF;
+    background: #FAFAFA;
+    color: #0D00FF;
+    transition: all 0.2s ease;
+}
+
+.btn:hover {
+    background: #0D00FF;
+    color: #FAFAFA;
+}
+
+.social-icons {
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+    margin-top: 1rem;
+}
+
+
+
+@media (max-width: 768px) {
+    .container {
+        padding: 1rem;
+    }
+
+    .hero {
+        padding: 2rem 1.5rem;
+    }
+
+    .logo {
+        font-size: 2.5rem;
+    }
+
+    .cta-buttons {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .btn {
+        width: 100%;
+        max-width: 300px;
+        justify-content: center;
+    }
+}
