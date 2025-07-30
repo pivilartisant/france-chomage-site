@@ -62,6 +62,21 @@ body {
     margin-bottom: 2rem;
 }
 
+.main-btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 1rem 2rem;
+    height: 20px;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 1.1rem;
+    border: 2px solid #0D00FF;
+    background: #FAFAFA;
+    color: #0D00FF;
+    transition: all 0.2s ease;
+}
+
 .btn {
     display: inline-flex;
     align-items: center;
